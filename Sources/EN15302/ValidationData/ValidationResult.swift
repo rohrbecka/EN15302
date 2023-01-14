@@ -8,7 +8,7 @@
 import Foundation
 
 /// A common protocol for the validation data as given in EN 15302:2021 appendices J and K.
-protocol ValidationResult {
+public protocol ValidationResult {
     /// Returns the ∆r-function.
     ///
     /// The keys in the `Dictionary` are the lateral shift of the wheelset
